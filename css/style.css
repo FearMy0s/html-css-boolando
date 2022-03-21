@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{ 
+    max-width: 1000px;
+    margin: auto;
+
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.col{
+float: left;
+width: calc(100% /3 -8px);
+margin: 0 4px;
+
+}
+.product{
+    position: relative;
+}
+.product img{
+    width: 100%;
+    display: block;
+}
