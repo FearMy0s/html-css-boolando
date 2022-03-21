@@ -17,9 +17,8 @@ margin: auto;
 .col{
 float: left;
 width: calc(100% /3 - 30px);
-margin-left: 10px;
-margin-bottom: 80px;
-
+margin: 0 10px;
+margin-bottom: 100px;
 }
 .product{
     position: relative;
@@ -63,4 +62,6 @@ margin-bottom: 80px;
     color: white;
     position: absolute;
     bottom: 25px;
+}
+.text{
 }
