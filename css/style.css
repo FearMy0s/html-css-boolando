@@ -14,11 +14,13 @@ margin: auto;
     display: table;
     clear: both;
 }
+.row {
+    margin-bottom: 50px;
+}
 .col{
 float: left;
-width: calc(100% /3 - 30px);
+width: calc(100% / 3 - 20px);
 margin: 0 10px;
-margin-bottom: 100px;
 }
 .product{
     position: relative;
@@ -63,5 +65,11 @@ margin-bottom: 100px;
     position: absolute;
     bottom: 25px;
 }
-.text{
+.discounted-price{
+    color: red;
+}
+.older-price{
+    text-decoration-line: line-through;
+    text-decoration-color: black;
+
 }
